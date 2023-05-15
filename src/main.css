@@ -1,0 +1,121 @@
+
+*{
+    margin: auto;
+    cursor: pointer;
+}
+
+  
+body{
+    background-color: #F1F6F9;
+}
+
+li{
+    list-style-type: none;
+    width: 10vw;
+    height: 25vh;
+    background-color: #394867;
+    border-radius: 28px;
+    text-align: center;
+    color: #9BA4B5;
+    
+    
+}
+
+.thin{
+    box-sizing: border-box;
+    width: 4vw;
+    height: 25vh;
+    border-radius: 13px;
+    margin-left: 2px;
+    transform: rotate(-11deg);
+    writing-mode: vertical-rl;
+    padding-right: 12px;
+}
+.thin:hover{
+    transform: rotate(0deg);
+    width: 4vw;
+    height: 25vh;
+    transition: all 0.35s;
+}
+ul{
+    display: flex;
+}
+.new .best{
+   padding-bottom: 20px;
+   padding-top: 0.5px;
+}
+.new{
+    width: 98%;
+    height: 33vh;
+    margin-top: 70px;
+    border: 3px dashed #212A3E;
+}
+h4{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.best{
+    width: 98%;
+    height: 33vh;
+    margin-top: 60px;
+    border: 3px dashed #212A3E;
+}
+/* #img1{
+    background-image: url(https://www.hanbit.co.kr/data/books/B8371709349_l.jpg);
+    
+} */
+img{
+    width: 30px;
+}
+.book{
+    background-image: url(https://www.hanbit.co.kr/data/books/B8371709349_l.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    line-height: 25vh;
+    transform: scale(1);
+}
+.book > p{
+    opacity: 0;
+}  
+.book:hover{
+    /* background-image: none;
+    transition: transform 0.4s linear;
+    transform: scale(1.1); */
+    background-image: none;
+    transform: scale(1.1);
+}
+.book:hover p{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+
+h4{
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 20px;
+}
+p{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+}
+a{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    color: #9BA4B5;
+}
+.book>a{
+    display: none;
+}
+.book:hover a{
+    display: inline-block;
+    
+}
+
+.thin:hover a{
+    display: inline-block;
+    color: #9BA4B5;
+}
+.thin p{
+    padding-right: 8px;
+}
