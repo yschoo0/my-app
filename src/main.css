@@ -29,7 +29,6 @@ li{
     margin-left: 2px;
     transform: rotate(-11deg);
     writing-mode: vertical-rl;
-    padding-right: 12px;
 }
 .thin:hover{
     transform: rotate(0deg);

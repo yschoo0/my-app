@@ -30,30 +30,31 @@ function BookList(props) {
   );
 }
 
+
 function App() {
   return (
     <div>
       <BookList className="new" title="신착도서">
-        <Book link="list.html">책 제목 및 저자</Book>
-        <Book link="list.html">책 제목 및 저자</Book>
-        <Book link="list.html">책 제목 및 저자</Book>
-        <Thin link="list.html" title="책 제목" />
-        <Book link="list.html">책 제목 및 저자</Book>
-        <Book link="list.html">책 제목 및 저자</Book>
-        <Book link="list.html">책 제목 및 저자</Book>
+        <Book>책 제목 및 저자</Book>
+      <Book >책 제목 및 저자</Book>
+        <Book >책 제목 및 저자</Book>
+        <Thin  title="책 제목" />
+        <Book >책 제목 및 저자</Book>
+        <Book >책 제목 및 저자</Book>
+        <Book >책 제목 및 저자</Book>
       </BookList>
       <BookList className="best" title="인기도서">
-        <Book link="list.html">책 제목 및 저자</Book>
-        <Thin link="list.html" title="책 제목" />
-        <Book link="list.html">책 제목 및 저자</Book>
-        <Book link="list.html">책 제목 및 저자</Book>
-        <Thin link="list.html" title="책 제목" />
-        <Book link="list.html">책 제목 및 저자</Book>
-        <Book link="list.html">책 제목 및 저자</Book>
+        <Book >책 제목 및 저자</Book>
+        <Thin  title="책 제목" />
+        <Book >책 제목 및 저자</Book>
+        <Book >책 제목 및 저자</Book>
+        <Thin  title="책 제목" />
+        <Book >책 제목 및 저자</Book>
+        <Book >책 제목 및 저자</Book>
       </BookList>
     </div>
     
-  );
+    );
 }
 
 
