@@ -5,9 +5,15 @@
 }
 
   
-body{
-    background-color: #F1F6F9;
-}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+  }
 
 li{
     list-style-type: none;
@@ -16,7 +22,7 @@ li{
     background-color: #394867;
     border-radius: 28px;
     text-align: center;
-    color: #9BA4B5;
+
     
     
 }
@@ -45,28 +51,26 @@ ul{
 .new{
     width: 98%;
     height: 33vh;
-    margin-top: 70px;
+    margin-top: 35px;
     border: 3px dashed #212A3E;
 }
 h4{
     padding-top: 10px;
     padding-left: 10px;
+    color: white;
 }
 .best{
     width: 98%;
     height: 33vh;
-    margin-top: 60px;
+    margin-top: 35px;
     border: 3px dashed #212A3E;
 }
-/* #img1{
-    background-image: url(https://www.hanbit.co.kr/data/books/B8371709349_l.jpg);
-    
-} */
+
 img{
     width: 30px;
 }
 .book{
-    background-image: url(https://www.hanbit.co.kr/data/books/B8371709349_l.jpg);
+    background-image: url(https://www.hanbit.co.kr/data/books/B8371709349_l.jpg); /*이 부분은 백이랑 연결*/
     background-size: cover;
     box-sizing: border-box;
     line-height: 25vh;
@@ -76,31 +80,25 @@ img{
     opacity: 0;
 }  
 .book:hover{
-    /* background-image: none;
-    transition: transform 0.4s linear;
-    transform: scale(1.1); */
     background-image: none;
     transform: scale(1.1);
-}
-.book:hover p{
-    opacity: 1;
-    transition: opacity 0.3s ease;
 }
 
 
 h4{
-    font-family: 'Black Han Sans', sans-serif;
+     font-family: 'Black Han Sans', sans-serif;
     font-size: 20px;
 }
 p{
-    font-family: 'Nanum Pen Script', cursive;
+
     font-size: 20px;
+    color: white;
 }
 a{
-    font-family: 'Nanum Pen Script', cursive;
+
     font-size: 20px;
     text-decoration: none;
-    color: #9BA4B5;
+    color: white;
 }
 .book>a{
     display: none;
@@ -117,3 +115,27 @@ a{
 .thin p{
     padding-right: 8px;
 }
+.home-header {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+.home-header h2 {
+    color: #FFFFFF;
+    font-size: 2rem;
+  }
+  
+.home-header h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+  }
+  
+.home-header h1 span {
+    color: #b0c4de;
+  }
+  
+.home-header p {
+    color: #a9a9a9;
+    font-weight: 500;
+  }
